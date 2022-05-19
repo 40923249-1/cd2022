@@ -372,10 +372,9 @@ var winkVideoData = {
 <p></p>
 <p></p>
 <p></p>
-<h1>W10</h1>
+<h1>w10</h1>
 <p></p>
-<p></p>
-<h2>W10_nx_integ</h2>
+<p></p><h2>W10_nx_integ</h2>
 <p></p>
 <p></p>
 <script>
@@ -451,7 +450,66 @@ var winkVideoData = {
 <p></p>
 <p></p>
 <div class="winkVideoControlBarProgressRightClass"><span></span></div>
-<h1 class="winkVideoControlBarProgressThumbClass">online</h1>
-<div class="winkVideoPlayOverlayClass"></div>
-</div>
-</div>
+<h1>online</h1>
+<h2>w13</h2>
+<p>今日上課內容</p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/personal/yen_gm_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline%2Fcd2022%5Fw13%5F2b%5Fpart1%2Emp4&amp;parent=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline&amp;ga=1">NX 與 CoppeliaSim 整合應用項目說明</a></p>
+<p></p>
+<p></p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/personal/yen_gm_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline%2Fcd2022%5Fw13%5F2b%5Fpart2%2Emp4&amp;parent=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline&amp;ga=1">uArm 主體零件工程圖取尺寸流程說明</a></p>
+<p></p>
+<p></p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/personal/yen_gm_nfu_edu_tw/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline%2Fcd2022%5Fw13%5F2b%5Fpart3%2Emp4&amp;parent=%2Fpersonal%2Fyen%5Fgm%5Fnfu%5Fedu%5Ftw%2FDocuments%2F2022%2Fonline&amp;ga=1">說明如何在線上讀取各學員每週任務進度</a></p>
+<p>  1.<a href="https://gist.githubusercontent.com/mdecourse/e00a3b68d4defee1987d18cc998b377a/raw/76f525f56ce4def0316d4b46af8e9100f91c21c8/check_cd2022_page.py">check_cd2022_page.py</a>複製程式碼</p>
+<div class="winkVideoPlayOverlayClass">  2.<a href="https://mde.tw/cd2022_guide/content/Brython.html">修改一些程式碼</a>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import html
+from browser import document
+
+brython_div = document["brython_div"]
+
+# 根據 href 與 content 將 html 元件中的 anchor 插入頁面
+def makeLink(href, content):
+    brython_div &lt;= html.A(content, href=href)
+    brython_div &lt;= html.BR()
+
+# 將 2b 學號、帳號與組別的網址設為 studlist_url
+aorb = "2b"
+page_title = "online"
+studlist_url = "https://mde.tw/studlist/2022spring/" + aorb + ".txt"
+# 利用 open() 與 read() 讀出資料
+data = open(studlist_url).read()
+# 若要 debug 可以查驗所取得的 data 內容
+#print(data)
+# 利用 split() 函式, 使用每一行的跳行符號\n切割所讀回的資料
+# 切割後的 stud 為數列 (list)
+stud = data.split("\n")
+# 列出去頭(標題)與去尾(空白行)的數列查驗
+#print(stud[1:-1])
+count = 0
+# blog name w6_studno.html
+member = []
+# 利用 for 迴圈逐一取出數列中的元素(每位學員的資料)
+for i in stud[1:-1]:
+    #print(i)
+    studno, github, grp = i.split("\t")
+    #print(studno, github, grp)
+    #print(type(grp))
+    stud_url = "https://" + github + ".github.io/cd2022/content/" + page_title + ".html"
+    url_title = studno + " " + page_title
+    try:
+        blog_content = open(stud_url).read()
+        makeLink(stud_url, url_title)
+    except:
+        #print(studno + " 尚無 w6 blog!")
+        pass
+    #makeLink(stud_url, url_title)
+    # 因為有人沒有組別或沒有登記 github 帳號
+    if grp != "" and github != "":
+        if grp == "1":
+            #print(studno)
+            count += 1
+    else:
+        print("尚未分組者:", studno)
+        
+print("done")</pre>
+</div></div></div>
