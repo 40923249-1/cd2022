@@ -172,37 +172,37 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.14">&lt;section&gt;
     &lt;h2&gt;w4&lt;/h2&gt;
     &lt;p&gt;
-        停電 &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        報告 &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.15">&lt;section&gt;
     &lt;h2&gt;w5&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        停電t &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.16">&lt;section&gt;
     &lt;h2&gt;w6&lt;/h2&gt;
     &lt;p&gt;
-        建立blog網頁 &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        建立blog網頁 &lt;a href="https://40923249-1.github.io/cd2022/content/w6.html" target="_blank"&gt;blog網頁&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.17">&lt;section&gt;
     &lt;h2&gt;w7&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        參考老師的w7 wink任務 &lt;a href="https://40923249-1.github.io/cd2022/content/w7.html" target="_blank"&gt;w7任務&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.18">&lt;section&gt;
     &lt;h2&gt;w8&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        畫uram零件並丟上coppeliasim &lt;a href="https://40923249-1.github.io/cd2022/content/w8.html" target="_blank"&gt;video&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.19">&lt;section&gt;
     &lt;h2&gt;w9&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        段考 &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.2">&lt;!doctype html&gt;
@@ -212,19 +212,19 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.20">&lt;section&gt;
     &lt;h2&gt;w10&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        ssh，nx_integ，block_ui &lt;a href="https://40923249-1.github.io/cd2022/content/w10_ssh.html" target="_blank"&gt;ssh&lt;/a&gt;、&lt;a href="https://40923249-1.github.io/cd2022/content/W10_nx_integ.html" target="_blank"&gt;nx_integ&lt;/a&gt;、&lt;a href="https://40923249-1.github.io/cd2022/content/w10_block_ui.html" target="_blank"&gt;block_ui&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.21">&lt;section&gt;
     &lt;h2&gt;w11&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        解決同時修改網站會出現的衝突 &lt;a href="https://40923249-1.github.io/cd2022/content/w11.html" target="_blank"&gt;衝突&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.22">&lt;section&gt;
     &lt;h2&gt;w12&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        計算nx零件總數 &lt;a https://40923249-1.github.io/cd2022/content/w12.html" target="_blank"&gt;零件詳情&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.23">&lt;section id="fragments"&gt;
@@ -257,19 +257,21 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.25">&lt;section&gt;
     &lt;h2&gt;w13&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        NX 與 CoppeliaSim 整合應用項目、
+uArm 主體零件工程圖取尺寸流程、如何在線上讀取各學員每週任務進度
+ &lt;a href="https://40923249-1.github.io/cd2022/content/w13.html" target="_blank"&gt;說明&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.26">&lt;section&gt;
     &lt;h2&gt;w14&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        以nx12繪圖並丟上coppeliasim然後讓他能動 &lt;a href="https://40923249-1.github.io/cd2022/content/w14.html" target="_blank"&gt;圖檔&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.27">&lt;section&gt;
     &lt;h2&gt;w15&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        執行吸取的動作 &lt;a href="https://40923249-1.github.io/cd2022/content/w15.html" target="_blank"&gt;連結&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.28">&lt;section data-background="#dddddd"&gt;
@@ -325,7 +327,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.35">&lt;section&gt;
     &lt;h2&gt;w16&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        計算座標且能讓吸盤吸住紅色方塊的正上方 &lt;a href="https://40923249-1.github.io/cd2022/content/w16.html" target="_blank"&gt;座標計算過程&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.4">&lt;body&gt;
