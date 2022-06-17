@@ -1,10 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-28T00:27:21+08:00</updated><entry><title>2022 Spring CD 課程</title><link href="./w8_Uarm.html" rel="alternate"></link><published>2022-04-27T23:50:00+08:00</published><updated>2022-04-28T00:27:21+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-04-27:./w8_Uarm.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-06-17T14:43:56+08:00</updated><entry><title>2022 Spring CD 課程 W10</title><link href="./w10.html" rel="alternate"></link><published>2022-04-28T23:50:00+08:00</published><updated>2022-06-17T14:43:56+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-04-28:./w10.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+
+
+&lt;h2&gt;W10&lt;/h2&gt;
+&lt;p&gt;將老師影片加入註解&lt;/p&gt;
+&lt;h2&gt;w10_block&lt;/h2&gt;
+&lt;script&gt;
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+&lt;/script&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008"&gt;
+&lt;source src="https://40923249-1.github.io/cd2022/downloads/1234.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;w10_nx&lt;/h2&gt;
+&lt;script&gt;
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+&lt;/script&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008"&gt;
+&lt;source src="https://40923249-1.github.io/cd2022/downloads/w10_nx_integ.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;w10_ssh&lt;/h2&gt;
+&lt;script&gt;
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+&lt;/script&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008"&gt;
+&lt;source src="https://40923249-1.github.io/cd2022/downloads/ssh.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程 W8</title><link href="./w8_Uarm.html" rel="alternate"></link><published>2022-04-14T23:50:00+08:00</published><updated>2022-06-17T14:43:04+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-04-14:./w8_Uarm.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 
 
 &lt;h2&gt;W8&lt;/h2&gt;
-&lt;p&gt;利用上學期用過的coppeliaSim，做這次的作業，感覺有更熟悉他的用法。&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-04-07T15:15:00+08:00</published><updated>2022-04-21T14:25:27+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-04-07:./w7_summary.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+&lt;p&gt;利用上學期用過的coppeliaSim，做這次的作業，感覺有更熟悉他的用法。&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程 W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-04-07T15:15:00+08:00</published><updated>2022-06-17T14:43:56+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-04-07:./w7_summary.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 
 
@@ -27,7 +106,7 @@
 40923245 Onshape
 40923247 NX1980
 40923249 NX1980
-40923252 SolveSpace&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程</title><link href="./w6_40923249.html" rel="alternate"></link><published>2022-03-31T15:15:00+08:00</published><updated>2022-04-08T00:57:30+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-03-31:./w6_40923249.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+40923252 SolveSpace&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>2022 Spring CD 課程 W6</title><link href="./w6_40923249.html" rel="alternate"></link><published>2022-03-31T15:15:00+08:00</published><updated>2022-06-17T14:43:04+08:00</updated><author><name>40923249</name></author><id>tag:None,2022-03-31:./w6_40923249.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 
 
