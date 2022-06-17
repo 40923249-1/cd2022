@@ -20,11 +20,7 @@
 <v t="leo.20220314203825.6"><vh>slides div</vh>
 <v t="leo.20220314203825.7"><vh>slide 1</vh></v>
 <v t="leo.20220314203825.8"><vh>slide 2</vh></v>
-<v t="leo.20220314203825.9"><vh>slide3</vh>
-<v t="leo.20220314203825.10"><vh>slide 3-1</vh></v>
-<v t="leo.20220314203825.11"><vh>slide 3-2</vh></v>
-<v t="leo.20220314203825.12"><vh>slide 3-3</vh></v>
-</v>
+<v t="leo.20220314203825.9"><vh>slide3</vh></v>
 <v t="leo.20220314203825.13"><vh>slide 4</vh></v>
 <v t="leo.20220314203825.14"><vh>slide 5 </vh></v>
 <v t="leo.20220314203825.15"><vh>slide 6</vh></v>
@@ -34,20 +30,11 @@
 <v t="leo.20220314203825.19"><vh>slide 10</vh></v>
 <v t="leo.20220314203825.20"><vh>slide 11</vh></v>
 <v t="leo.20220314203825.21"><vh>slide 12</vh></v>
-<v t="leo.20220314203825.22"><vh>slide 13</vh>
-<v t="leo.20220314203825.23"><vh>slide 13-1</vh></v>
-<v t="leo.20220314203825.24"><vh>slide 13-2</vh></v>
-</v>
+<v t="leo.20220314203825.22"><vh>slide 13</vh></v>
 <v t="leo.20220314203825.25"><vh>slide 14</vh></v>
 <v t="leo.20220314203825.26"><vh>slide 15</vh></v>
-<v t="leo.20220314203825.27"><vh>slide 16</vh>
-<v t="leo.20220314203825.28"><vh>slide 16-1</vh></v>
-<v t="leo.20220314203825.29"><vh>slide 16-2</vh></v>
-<v t="leo.20220314203825.30"><vh>slide 16-3</vh></v>
-<v t="leo.20220314203825.31"><vh>slide 16-4</vh></v>
-<v t="leo.20220314203825.32"><vh>slide 16-5</vh></v>
-</v>
-<v t="leo.20220314203825.35"><vh>slide 19</vh></v>
+<v t="leo.20220314203825.27"><vh>slide 16</vh></v>
+<v t="leo.20220314203825.35"><vh>slide 17</vh></v>
 </v>
 </v>
 </v>
@@ -138,29 +125,6 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.1">@language xml
 @tabwidth -4
 @others</t>
-<t tx="leo.20220314203825.10">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.11">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.12">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#/2"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20220314203825.13">&lt;section&gt;
     &lt;h2&gt;w3&lt;/h2&gt;
     &lt;p&gt;
@@ -227,33 +191,6 @@ vertical: body pane on the botton</t>
         計算nx零件總數 &lt;a https://40923249-1.github.io/cd2022/content/w12.html" target="_blank"&gt;零件詳情&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20220314203825.23">&lt;section id="fragments"&gt;
-    &lt;h2&gt;Fragments&lt;/h2&gt;
-    &lt;p&gt;Hit the next arrow...&lt;/p&gt;
-    &lt;p class="fragment"&gt;... to step through ...&lt;/p&gt;
-    &lt;p&gt;&lt;span class="fragment"&gt;... a&lt;/span&gt; &lt;span class="fragment"&gt;fragmented&lt;/span&gt; &lt;span class="fragment"&gt;slide.&lt;/span&gt;&lt;/p&gt;
-
-    &lt;aside class="notes"&gt;
-        This slide has fragments which are also stepped through in the notes window.
-    &lt;/aside&gt;
-&lt;/section&gt;
- </t>
-<t tx="leo.20220314203825.24">&lt;section&gt;
-    &lt;h2&gt;Fragment Styles&lt;/h2&gt;
-    &lt;p&gt;There's different types of fragments, like:&lt;/p&gt;
-    &lt;p class="fragment grow"&gt;grow&lt;/p&gt;
-    &lt;p class="fragment shrink"&gt;shrink&lt;/p&gt;
-    &lt;p class="fragment fade-out"&gt;fade-out&lt;/p&gt;
-    &lt;p&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-right"&gt;fade-right, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-up"&gt;up, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-down"&gt;down, &lt;/span&gt;
-        &lt;span style="display: inline-block;" class="fragment fade-left"&gt;left&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p class="fragment fade-in-then-out"&gt;fade-in-then-out&lt;/p&gt;
-    &lt;p class="fragment fade-in-then-semi-out"&gt;fade-in-then-semi-out&lt;/p&gt;
-    &lt;p&gt;Highlight &lt;span class="fragment highlight-red"&gt;red&lt;/span&gt; &lt;span class="fragment highlight-blue"&gt;blue&lt;/span&gt; &lt;span class="fragment highlight-green"&gt;green&lt;/span&gt;&lt;/p&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20220314203825.25">&lt;section&gt;
     &lt;h2&gt;w13&lt;/h2&gt;
     &lt;p&gt;
@@ -274,21 +211,6 @@ uArm 主體零件工程圖取尺寸流程、如何在線上讀取各學員每週
         執行吸取的動作 &lt;a href="https://40923249-1.github.io/cd2022/content/w15.html" target="_blank"&gt;連結&lt;/a&gt;.
     &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20220314203825.28">&lt;section data-background="#dddddd"&gt;
-    &lt;h2&gt;Slide Backgrounds&lt;/h2&gt;
-    &lt;p&gt;
-        Set &lt;code&gt;data-background="#dddddd"&lt;/code&gt; on a slide to change the background color. All CSS color formats are supported.
-    &lt;/p&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.29">&lt;section data-background="https://static.slid.es/reveal/image-placeholder.png"&gt;
-    &lt;h2&gt;Image Backgrounds&lt;/h2&gt;
-    &lt;pre&gt;&lt;code class="hljs html"&gt;&amp;lt;section data-background="image.png"&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-</t>
 <t tx="leo.20220314203825.3">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 
@@ -309,21 +231,6 @@ uArm 主體零件工程圖取尺寸流程、如何在線上讀取各學員每週
     &lt;!-- Theme used for syntax highlighting of code --&gt;
     &lt;link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"&gt;
 &lt;/head&gt;</t>
-<t tx="leo.20220314203825.30">&lt;section data-background="https://static.slid.es/reveal/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px"&gt;
-    &lt;h2&gt;Tiled Backgrounds&lt;/h2&gt;
-    &lt;pre&gt;&lt;code class="hljs html" style="word-wrap: break-word;"&gt;&amp;lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.31">&lt;section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" data-background-color="#000000"&gt;
-    &lt;div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;"&gt;
-        &lt;h2&gt;Video Backgrounds&lt;/h2&gt;
-        &lt;pre&gt;&lt;code class="hljs html" style="word-wrap: break-word;"&gt;&amp;lt;section data-background-video="video.mp4,video.webm"&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.32">&lt;section data-background="http://i.giphy.com/90F8aUepslB84.gif"&gt;
-    &lt;h2&gt;... and GIFs!&lt;/h2&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20220314203825.35">&lt;section&gt;
     &lt;h2&gt;w16&lt;/h2&gt;
     &lt;p&gt;
